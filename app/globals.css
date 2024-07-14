@@ -1,0 +1,698 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background: #eff1f7;
+}
+footer {
+  padding: 78px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background: #232127;
+  color: white;
+}
+ul li:hover {
+  color: #2bd0d0;
+}
+ul li {
+  list-style: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.234375px;
+  text-align: left;
+  color: #bfbfbf;
+  cursor: pointer;
+}
+ul span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #fff;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer img {
+  width: 120.04px;
+  height: 32.67px;
+}
+.footer-info {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon ul {
+  flex-direction: row;
+}
+.footer-icon li {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  font-size: 20px;
+}
+.BtnPage-container {
+  background-image: url("../public/Path\ 2.svg");
+  width: 100vw;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.BtnPage-container h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #fff;
+}
+.BtnPage-container button {
+  width: 197px;
+  height: 56px;
+  background-color: #2bd0d0;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.Cards-container {
+  width: 100vw;
+  padding: 78px;
+  text-align: center;
+}
+.Cards-container h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #34313d;
+  margin-bottom: 15px;
+}
+.todo-list {
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-list span {
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: #34313D;
+}
+.todo-list button {
+  width: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  background: #2bd0d0;
+  font-size: 15px;
+  font-family: Poppins;
+}
+.cards-info {
+  width: 540px;
+  height: 130px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.Cards-container p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.12272727489471436px;
+  color: #9e9aa8;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+  position: relative;
+}
+.card {
+  width: 350px;
+  background: #fff;
+  padding: 50px 30px 20px 30px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.card2 {
+  margin-top: 50px;
+}
+.card3 {
+  margin-top: 100px;
+}
+.card div {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #3a3054;
+  color: #2bd0d0;
+  padding: 20px;
+  position: absolute;
+  top: -50px;
+}
+.card2 div {
+  top: 5px;
+}
+.card3 div {
+  top: 55px;
+}
+.card h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 40px;
+  color: #34313d;
+}
+.card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: left;
+  width: 286px;
+}
+header {
+  width: 100vw;
+  padding: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+header ul {
+  display: flex;
+  align-self: center;
+  gap: 30px;
+  flex-direction: row;
+}
+header ul li {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #9e9aa8;
+  cursor: pointer;
+}
+header ul li:hover {
+  color: #34313d;
+}
+.sign {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign button {
+  width: 105px;
+  border-radius: 30px;
+  background: aqua;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0px 78px;
+  background: #fff;
+  padding-bottom: 100px;
+}
+.hero-info {
+  width: 50%;
+}
+.Hero-picture {
+  width: 50%;
+}
+.Hero-picture img {
+  width: 682px;
+  height: 397px;
+}
+.Hero-info h1 {
+  width: 565px;
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #34313d;
+}
+.Hero-info p {
+  width: 540px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #9e9aa8;
+}
+.Hero-info button {
+  color: #fff;
+  width: 197px;
+  height: 56px;
+  background: #2bd0d0;
+  border: none;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.InputPage-container {
+  width: 100vw;
+  padding: 78px;
+}
+.Input-container {
+  width: 100%;
+  background-image: url(../public/Path\ 2.svg);
+  padding: 20px 40px;
+  display: flex;
+  gap: 30px;
+  border-radius: 10px;
+}
+.Input-container button {
+  width: 188px;
+  height: 64px;
+  background: #2bd0d0;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.Input-container input {
+  width: 769px;
+  height: 64px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #34313d;
+  outline: none;
+}
+.Input-container input::placeholder {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #34313d;
+}
+.sign .Login {
+  background: #fff;
+  color: #9e9aa8;
+}
+
+.dropdown button {
+  width: 279px;
+  border: none;
+  border-radius: 20px;
+  padding: 20px ;
+  color: #fff;
+  font-size: 16px;
+  background: #2bd0d0;
+}
+.dropdown hr {
+  color: 
+  #9E9AA8;
+  margin: 10px;
+}
+ .dropdown .DropdownBtn {
+  color: #fff;
+  background: #3a3054;
+  border: none;
+}
+.DropdownBtn:hover {
+  background: #3a3054;
+
+}
+.Hero-pictureRes {
+  display: none;
+}
+.dropdown-container {
+  display: none;
+}
+.dropdown {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  background: #9ae3e3;
+}
+.Btn-todo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 40%;
+}
+
+
+.todo-list .URL {
+color: #2bd0d0;
+}
+.InputPage-container p {
+  color: #ff0000;
+  font-family: Poppins;
+font-size: 12px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.08181817829608917px;
+text-align: left;
+margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+header , .hero-container, .InputPage-container, .Cards-container, .BtnPage-container, footer {
+  width: 1024px;
+  padding: 30px;
+}
+
+
+.card {
+  width: 300px;
+}
+.card p{
+  width: 250px;
+}
+.Input-container input {
+  width: 669px;
+}
+.Hero-info {
+  width: 512px;
+}
+.Hero-info p{
+  width: 440px;
+}
+.Hero-picture img {
+  width: 432px;
+}
+}
+@media only screen and (max-width: 768px){
+  header , .hero-container, .InputPage-container, .Cards-container, .BtnPage-container, footer {
+    width: 768px;
+    padding: 30px;
+  }
+
+  .card-container{
+    flex-direction: column;
+  }
+  .card {
+    width: 350px;
+    margin: 30px auto;
+
+  }
+  .card h2 {
+    margin: auto;
+  }
+  .card p{
+    width: 300px;
+    text-align: center;
+
+  }
+  .card div {
+   top: 1px;
+   left: 310px;
+  }
+  .card2 div {
+ top: 370px;
+  }
+  .card3 div {
+ top: 770px;
+  }
+  .Input-container input {
+    width: 469px;
+  }
+  .Hero-info {
+    width: 372px;
+  }
+  .Hero-info h1 {
+    font-size: 56px;
+    width: 372px;
+  }
+  .Hero-info p{
+    width: 340px;
+  }
+  .Hero-picture img {
+    width: 332px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  footer {
+    width: 375px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 20;
+  }
+  footer img {
+    width: 120px;
+    height: 33px;
+    margin: 0 auto;
+  }
+  footer li {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.234375px;
+    text-align: center;
+  }
+  footer li span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: center;
+  }
+  .footer-info {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .footer-icon {
+    margin: 0 auto;
+  }
+  .BtnPage-container h1 {
+    font-size: 28px;
+  }
+  .Cards-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .card-container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .card {
+    width: 100%;
+    padding: 20px;
+  }
+  .card p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .card h2 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .card div {
+    left: 120px;
+  }
+  .card2 div {
+    top: 340px;
+  }
+  .card3 div {
+    top: 760px;
+  }
+  .cards-info {
+    width: 327px;
+  }
+  .cards-info p {
+    width: 310px;
+  }
+  .InputPage-container {
+    padding: 20px;
+  }
+  .Input-container {
+    height: 160px;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+  .Input-container input {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+  }
+  .Input-container button {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+  }
+  .hero-container {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .Hero-picture {
+    display: none;
+  }
+  .Hero-pictureRes {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .Hero-pictureRes img {
+    width: 327px;
+    height: 270px;
+  }
+  .Hero-info {
+    width: 100%;
+    text-align: center;
+  }
+  .Hero-info h1 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.05px;
+    text-align: center;
+    width: 327px;
+  }
+  .Hero-info p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.12272727489471436px;
+    text-align: center;
+    width: 327px;
+  }
+  .InputPage-container p {
+    margin-top: 5px;
+  }
+  header {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  header li,
+  .sign {
+    display: none;
+  }
+  .dropdown-container {
+    display: block;
+    color: #9e9aa8;
+    width: 24px;
+    font-size: 24px;
+  }
+
+  .dropdown-container:hover .dropdown {
+    display: flex;
+  }
+  .dropdown {
+    padding: 20px 30px;
+    width: 327px;
+    background: #3a3054;
+    border-radius: 10px;
+
+    flex-direction: column;
+  }
+  .dropdown ul {
+    flex-direction: column;
+  }
+  .dropdown li {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    display: block;
+  }
+  .dropdown ul li:hover {
+    color: #2bd0d0;
+  }
+  .dropdown.open {
+    display: flex;
+    margin-top: 20px;
+  }
+  .todo-list {
+    width: 327px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .todo-list span {
+    border-bottom: 1px solid grey;
+  }
+  .todo-list button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  header , .hero-container, .InputPage-container, .Cards-container, .BtnPage-container, footer {
+    width: 375px;
+  }
+}
